@@ -1,5 +1,7 @@
 import os
+import sys
 import time
+sys.stdout.reconfigure(encoding='utf-8')
 from characters import commander_intro, nexus_intro
 from player import create_player, show_status,update_rank
 from missions import mission_one,mission_two,mission_three, mission_four, mission_five , mission_six,mission_seven,mission_eight
